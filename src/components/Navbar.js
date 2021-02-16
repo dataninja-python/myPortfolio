@@ -30,6 +30,7 @@ export default function Navbar() {
     return (
         <>
             <nav className="navbar">
+                {/* logo start */}
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         AJI <i class="fa fa-save" aria-hidden="true"></i>
@@ -37,6 +38,8 @@ export default function Navbar() {
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
                     </div>
+                    {/* logo end */}
+                    {/* nav bar menu */}
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
@@ -59,7 +62,10 @@ export default function Navbar() {
                             </Link>
                         </li>
                     </ul>
+                    {/* nav bar menu */}
+                    {/* sign up button start*/}
                     {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                    {/* sign up button end*/}
                 </div>
             </nav>   
         </>
