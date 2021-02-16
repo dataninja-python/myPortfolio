@@ -44,6 +44,10 @@ video {
     margin-left: 4px;
 }
 
+p .tech-subtitle {
+    font-size: 1rem !important;
+}
+
 @media screen and (max-width: 960px) {
     .hero-container > h1 {
         font-size: 70px;
