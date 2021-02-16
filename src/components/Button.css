@@ -1,6 +1,8 @@
 :root {
     --primary: #fff;
     --brown: #242424;
+    --light-purple: #b7b2d8;
+    --purple: #7D6EE7;
 }
 
 .btn {

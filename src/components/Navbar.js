@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import '../App.css';
 import './Navbar.css';
 import { Button } from './Button';
 
@@ -33,7 +34,7 @@ export default function Navbar() {
                 {/* logo start */}
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        AJI <i class="fa fa-save" aria-hidden="true"></i>
+                        <img src="/images/favicon-A.png" className="navbar-logo-img" alt="logo image"></img>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
