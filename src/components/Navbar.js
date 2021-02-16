@@ -34,7 +34,7 @@ export default function Navbar() {
                 {/* logo start */}
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        <img src="/images/favicon-A.png" className="navbar-logo-img" alt="logo image"></img>
+                        <img src="/images/favicon-A.png" className="navbar-logo-img" alt="logo"></img>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>

@@ -38,7 +38,8 @@
 }
 
 .btn--medium:hover, .btn--large:hover {
+    transition: all 0.3s ease-out;
     background: var(--primary);
     color: var(--brown);
-    transition: all 0.3s ease-out;
+    transition: 250ms;
 }
