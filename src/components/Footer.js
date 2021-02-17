@@ -29,12 +29,20 @@ export default function Footer() {
                     </div>
                     <div className="footer-link-items">
                         <h2>Social</h2>
-                        <Link to='/'>Github</Link>
-                        <Link to='/'>LinkedIn</Link>
-                        <Link to='/'>Instagram</Link>
-                        <Link to='/'>Facebook</Link>
-                        <Link to='/'>Youtube</Link>
-                        <Link to='/'>Twitter</Link>
+                        <Link className='social-icon-link facebook' to='/' target='_blank' aria-label='Github'><i className='fab fa-github' /></Link>
+                        <Link className='social-icon-link facebook' to='/' target='_blank' aria-label='Facebook'><i className='fab fa-facebook-f' />
+                        </Link>
+                        <Link className='social-icon-link instagram' to='/'
+                        target='_blank' aria-label='Instagram'><i className='fab fa-instagram' />
+                        </Link>
+                        <Link className='social-icon-link youtube' to='/' target='_blank' aria-label='Youtube'><i className='fab fa-youtube' />
+                        </Link>
+                        <Link className='social-icon-link twitter' to='/'
+                        target='_blank' aria-label='Twitter'><i className='fab fa-twitter' />
+                        </Link>
+                        <Link className='social-icon-link twitter' to='/'
+                        target='_blank' aria-label='LinkedIn'><i className='fab fa-linkedin' />
+                        </Link>
                     </div>
                 </div>
             </div>
