@@ -15,9 +15,10 @@ export default function Cards() {
                         {/* <details><a href="https://github.com/dataninja-python/polls-app">Click</a></details> */}
                     </ul>
                     <ul className="cards__items">
-                        <CardItem src="images/img-9.jpg" text='Magic Meme Ball App' label='Project' path='/services'></CardItem>
-                        <CardItem src="images/img-2.jpg" text='Simple Trivia App With Jeopardy API' label='Project' path='/services'></CardItem>
-                        <CardItem src="images/img-2.jpg" text='A Data Science Capstone - 2017' label='Project' path='/services'></CardItem>
+                        <CardItem src="images/img-5.jpg" text='FM Affiliate Marketing Site' label='Project' path='/services'></CardItem>
+                        <CardItem src="images/img-6.jpg" text='Magic Meme Ball App' label='Project' path='/services'></CardItem>
+                        <CardItem src="images/img-7.jpg" text='Simple Trivia App With Jeopardy API' label='Project' path='/services'></CardItem>
+                        <CardItem src="images/img-8.jpg" text='A Data Science Capstone - 2017' label='Project' path='/services'></CardItem>
                     </ul>
                 </div>
             </div>
