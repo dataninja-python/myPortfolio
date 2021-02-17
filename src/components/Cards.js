@@ -1,4 +1,5 @@
 import React from 'react';
+import { ExternalLink } from 'react-external-link'; 
 import CardItem from './CardItem';
 import './Cards.css';
 
@@ -10,7 +11,8 @@ export default function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem src="images/img-9.jpg" text='To-Do App - Django Second Try' label='Project' path='/services'></CardItem>
-                        <CardItem src="images/img-2.jpg" text='Polling App - Django First Try' label='Project' path='/services'></CardItem>
+                        <CardItem src="images/img-2.jpg" text='Polling App - Django First Try' label='Project'></CardItem>
+                        {/* <a href="https://github.com/dataninja-python/polls-app">Click To See Project</a> */}
                     </ul>
                     <ul className="cards__items">
                         <CardItem src="images/img-9.jpg" text='Magic Meme Ball App' label='Project' path='/services'></CardItem>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from './Button';
 import { ButtonServices } from './ButtonServices';
-import './Button.css';
+// import './Button.css';
 import '../App.css';
 import './HeroSection.css';
 
@@ -14,7 +14,7 @@ export default function HeroSection () {
             <p>Welcome to my portfolio site</p>
             <p className="tech-subtitle">Built with React, React Hooks, HTML, CSS, and JavaScript</p>
             <div className="hero-btns">
-                    <ButtonServices id='hero-learn'  className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Learn More</ButtonServices>
+                    <ButtonServices id='btn-learn'  className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Learn More</ButtonServices>
 
                     <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>Sign Up <i className="fa fa-envelope" aria-hidden="true"></i> </Button>
             </div>
